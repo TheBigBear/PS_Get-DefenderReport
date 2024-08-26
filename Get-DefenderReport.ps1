@@ -152,7 +152,7 @@ function Test-Online {
 #>
 
 $ADComputerParameters = @{
-    Filter     = "(OperatingSystem -like '*Windows Server 2016*') -or (OperatingSystem -like '*Windows 10*') -or (OperatingSystem -like '*Windows Server 2019*')"
+    Filter     = "(OperatingSystem -like '*Windows Server 2016*') -or (OperatingSystem -like '*Windows 10*') -or (OperatingSystem -like '*Windows 11*') -or (OperatingSystem -like '*Windows Server 2019*') -or (OperatingSystem -like '*Windows Server 2022*') -or (OperatingSystem -like '*Windows Server 2025*')"
     SearchBase = $searchBase
     Properties = 'IPv4Address'
 }
